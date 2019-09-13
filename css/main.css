@@ -1,0 +1,66 @@
+#main-header-section{
+	text-align: center;
+	width: 100%;
+	height: 555px;
+	color: white;
+	background-image: url("../imgs/mrSamaniBannerv3.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+.typing-text {
+	font-size: 7em;
+}
+.main-header-section-content, .typing-content {
+	position: relative;
+	margin: 14px 16px;
+	padding: 10px;
+}
+.typing-content {
+	position: relative;
+	top-margin: 50px;
+}
+.main-header-p{
+	padding: 0;
+	font-size: 3em;
+}
+
+#about-section-mainpage {
+	padding: 0;
+	min-height: 500px;
+}
+
+#mail-button-link {
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+
+}
+.main-page-section-header {
+	text-align: center;
+}
+.sign-up-for-newsletter {
+	background-color: rgb(200, 200, 200);
+	color: white;
+	text-align: center;
+}
+.sign-up-for-newsletter p {
+		font-size: 1.2em;
+}
+.email-sub-input {
+	background-color: inherit;
+	height: 50px;
+	width: 250px;
+ border-color: #white;
+ background-color: white;
+ color: black;
+ padding-left: 10px;
+}
+#main-page-card-row {
+	min-height: 500px;
+	margin-top: 50px;
+}
+ul.fa-ul{
+	padding:0;
+	list-style-type: none;
+}

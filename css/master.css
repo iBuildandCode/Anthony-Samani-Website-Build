@@ -1,0 +1,94 @@
+* {
+  border-radius: 5px;
+}
+body{
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'Oswald', sans-serif;
+}
+img {
+  max-width: 100%;
+}
+/*adds bckgrnd color,removes margins and padding from this particular list*/
+ ul.traditional-navigation-bar {
+  display: inline;
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+ }
+ #logo-nav-item {
+   float: left;
+ }
+ /* makes list items align */
+ ul.traditional-navigation-bar li{
+   float: right;
+ }
+/* style for link list items */
+ul.traditional-navigation-bar li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px 16px;
+  transition: 0.4s;
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+}
+/*changes background when hovered over */
+ul.traditional-navigation-bar li a:hover {
+  background-color: #53565f;
+  color: white;
+}
+/*hides icon until screen becomes too small */
+ul.traditional-navigation-bar li.icon0 {
+  display:none;
+}
+.custom-section {
+  height: 350px;
+  width: 100%;
+  padding: 14px 16px;
+  display: inline-block;
+}
+/* -----------------------------buttons -----------------------------*/
+button {
+font-family: 'Oswald', sans-serif;
+width: 150px;
+}
+/* ---------------------------- headers --------------------------- */
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Oswald', sans-serif;
+}
+.card {
+  position: relative;
+  float: left;
+  min-width: 33%;
+  min-height: 350px;
+  padding: 5px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.card-img-top{
+  max-height: 150px;
+}
+.card-text {
+  min-height: 100%;
+}
+#content1 , #content2 {
+	width: 50%;
+	height: 500px;
+	padding: 20px 20px;
+}
+#content1 {
+	float: left;
+  position: relative;
+  top: 30%;
+}
+#content2 {
+	float: right;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.footer-main {
+  background: black;
+}

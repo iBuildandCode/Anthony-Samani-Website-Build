@@ -1,0 +1,121 @@
+/*media querie*/
+
+/*enables mobile view for screens smaller than 680px except for the first li. Shows the li that has the link and open and close topNav icon0  */
+@media only screen and (max-width: 1100px) {
+
+    .typing-content {
+        font-size: .6em;
+    }
+}
+
+@media screen and (max-width: 680px) {
+  .free {
+    display: none;
+  }
+  #mainpage-blog-section {
+    padding: 20px 30px;
+  }
+  #content1 {
+    top: 1%;
+    max-height: 220px;
+  }
+  #content2 {
+    top: 1%;
+    min-height: 400px;
+  }
+  ul.fa-ul{
+    padding:0;
+  }
+  .card{
+    min-width: 100%;
+    padding: 15px;
+  }
+  .fa-ul {
+    list-style-type: none;
+  }
+  .btn-block {
+    text-align: center;
+  }
+  #main-page-card-row{
+    min-height: 1150px;
+  }
+  #content1, #content2 {
+    float: none;
+    width: 100%;
+    padding: 20px 30px;
+    height:350px;
+  }
+  #content1{
+    max-height: 150px;
+  }
+
+  #main-header-section{
+  	width: 100%;
+    background-size: contain;
+  	height: 200px;
+  }
+ button {
+   width: 130px;
+ }
+ #main-header-section{
+  padding: 0;
+  margin: 0;
+ }
+ .main-header-section-content, .typing-content {
+ 	top: 0;
+ }
+ div.typing-content {
+   padding: 5px;
+   margin : 0;
+ }
+ .main-header-p {
+   font-size: 1.2em;
+   padding: 0;
+   margin: 0;
+ }
+}
+
+@media screen and (max-width: 680px) {
+  ul.traditional-navigation-bar li:not(:first-child){display:none;}
+  ul.traditional-navigation-bar li.icon0 {
+    float:right;
+    display:inline-block;
+  }
+  .typing-text {
+    font-size: 2.5em;
+    width: 100%;
+    position: relative;
+    top: 10%;
+  }
+  div.typing-content {
+    min-width: 100%;
+  }
+  .typing-text .dash{
+    display: inline-block;
+    height: 0px;
+    width: 0px;
+    background-color: black;
+    animation: blink .5s infinite linear;
+}
+}
+/*when in mobile view and the menu icon is clicked my js will run to enable dropdown*/
+@media screen and (max-width:680px) {
+  ul.traditional-navigation-bar.responsive {position: relative;}
+  ul.traditional-navigation-bar.responsive li.icon0 {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  ul.traditional-navigation-bar.responsive li {
+    float:none;
+    display:inline;
+  }
+  ul.traditional-navigation-bar.responsive li a {
+    display:block;
+    text-align:center;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  #logo-nav-item {
+    float: none;
+    display: inline;
+  }

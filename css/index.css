@@ -1,0 +1,93 @@
+@media only screen and (max-width: 680px) {
+.btn {
+		left: 21.5% !important;
+		top: 55% !important;
+		width: 125px !important;
+
+		}
+		.fly-in-text li {
+			margin-right: 10px;
+			font-size: 3em !important;
+		}
+
+	}
+body {
+  font-family: 'Oswald', sans-serif;
+}
+div.flyingTextSpace{
+	top: 40%;
+	text-align: center;
+	position:absolute;
+	height: 100px;
+	width: 100%;
+}
+.fly-in-text {
+	list-style-type: none;
+	position: absolute;
+	left: 47.5%; /*47.5% is perfect for just welcome */
+	top: 18%;
+	transform: translateX(-50%) translateY(-50%);
+	width:100%;
+}
+.fly-in-text li {
+	display: inline-block;
+	margin-right: 10px;
+	color:black;
+	font-size: 4em;
+	opacity: 1s;
+	transition: all 2.5s ease;
+}
+.fly-in-text.hidden li {
+	opacity: 0;
+}
+.fly-in-text li:last-child {
+	margin-right: 0;
+}
+
+.fly-in-text.hidden li:nth-child(1) {
+	transform: translateX(0px) translateY(300px);
+}
+.fly-in-text.hidden li:nth-child(2) {
+	transform: translateX(0px) translateY(-270px);
+}
+.fly-in-text.hidden li:nth-child(3) {
+	transform: translateX(0px) translateY(115px);
+}
+.fly-in-text.hidden li:nth-child(4) {
+	transform: translateX(0px) translateY(-202px);
+}
+.fly-in-text.hidden li:nth-child(5) {
+	transform: translateX(0px) translateY(350px);
+}
+.fly-in-text.hidden li:nth-child(6) {
+	transform: translateX(0px) translateY(-380px);
+}
+.fly-in-text.hidden li:nth-child(7) {
+	transform: translateX(0px) translateY(320px);
+}
+ul.socialMediaList li {
+	display:inline-block;
+	margin-right: 10px;
+}
+img.socialMeidaImg {
+	max-height:  12px !important;
+}
+ul.socialMediaList {
+	position: fixed;
+	bottom: 1%;
+	text-align: center;
+}
+.btn {
+	position: absolute;
+	top: 65%;
+	left: 40%;
+	height: 35px;
+	width: 150px;
+	font-size: 1em;
+	border-radius: 5px;
+	background-color: rgb(52, 130, 233);
+}
+.btn-primary{
+	text-decoration: none;
+	color: white;
+}
